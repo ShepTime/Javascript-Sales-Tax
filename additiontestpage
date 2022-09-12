@@ -1,0 +1,19 @@
+<html>
+<head>
+<script>
+  function addnumbers ()
+  {
+    n1 = document.getElementByID('num1').value;
+    n 2= document.getElementByID('num2').value;
+    sum = n1+ n2;
+    document.getElementById('sum').value = sum;
+    }
+    </script>
+    </head>
+    <body>
+Number 1: <input type="text" id="num1" /><br />
+Number 2: <input type="text" id="num2" /><br />
+ <input type="button" id="btnAdd" value="Add Numbers"
+    onclick="addnumbers();" />
+<br />
+Sum: <input type="text" id="sum" /> <br />
